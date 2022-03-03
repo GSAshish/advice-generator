@@ -10,6 +10,8 @@ async function getAdvice() {
   advice = data.slip;
   console.log(advice);
   // rendering advice
+  textEl.textContent = "";
+  idEl.textContent = "";
   textEl.textContent = `"${advice.advice}"`;
   idEl.textContent = advice.id;
 }
