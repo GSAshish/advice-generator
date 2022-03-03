@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Manrope", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-color: #1f2632;
+  color: #cee3e9;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+
+.card {
+  text-align: center;
+  width: 54.8rem;
+  background-color: #323a49;
+  padding: 4.3rem 5.4rem;
+  border-radius: 10px;
+  position: relative;
+}
+
+.card h1 {
+  font-size: 1.3rem;
+  color: #52ffa8;
+  font-weight: 200;
+}
+
+.card p {
+  font-size: 2.6rem;
+  text-align: center;
+  padding-bottom: 4rem;
+  font-weight: 800;
+}
+
+.card .text-divider-img {
+  height: 3rem;
+  background-image: url("../images/pattern-divider-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.card .btn {
+  width: 7.7rem;
+  height: 7.7rem;
+  border-radius: 100%;
+  background-color: #52ffa8;
+  border: none;
+  position: absolute;
+  top: 105.17%;
+  left: 50%;
+  -webkit-transform: translate(-40%, -50%);
+          transform: translate(-40%, -50%);
+  cursor: pointer;
+  text-align: center;
+}
+
+.card .btn:hover {
+  -webkit-box-shadow: 0 0 20px #52ffa8;
+          box-shadow: 0 0 20px #52ffa8;
+}
+
+.card .btn:active {
+  -webkit-box-shadow: 0 0 10px #52ffa8;
+          box-shadow: 0 0 10px #52ffa8;
+}
+
+@media only screen and (max-width: 45em) {
+  html {
+    font-size: 60%;
+  }
+}
+
+@media only screen and (max-width: 37.3em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media only screen and (max-width: 28em) {
+  html {
+    font-size: 40%;
+  }
+  body {
+    height: 100vh;
+    display: -ms-grid;
+    display: grid;
+    place-items: center;
+  }
+  .card {
+    margin: 0 10px;
+    padding: 5rem 4rem 5rem 4rem;
+  }
+  h1 {
+    font-size: 10rem;
+    color: #52ffa8;
+    font-weight: 200;
+    padding-bottom: 4rem;
+  }
+  p {
+    font-size: 13.3rem;
+    text-align: center;
+    padding-bottom: 4rem;
+    font-weight: 800;
+  }
+  .text-divider-img {
+    background-image: url("../images/pattern-divider-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 4rem;
+  }
+}
+/*# sourceMappingURL=index.css.map */

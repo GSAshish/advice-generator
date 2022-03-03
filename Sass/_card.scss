@@ -1,0 +1,44 @@
+.card {
+  text-align: center;
+  width: 54.8rem;
+  background-color: $Dark-Grayish-blue;
+  padding: 4.3rem 5.4rem;
+  border-radius: 10px;
+  position: relative;
+  & h1 {
+    font-size: 1.3rem;
+    color: $Neon-Green;
+    font-weight: 200;
+  }
+  & p {
+    font-size: 2.6rem;
+    text-align: center;
+    padding-bottom: 4rem;
+    font-weight: $weight;
+  }
+  & .text-divider-img {
+    height: 3rem;
+    background-image: url("../images/pattern-divider-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  & .btn {
+    width: 7.7rem;
+    height: 7.7rem;
+    border-radius: 100%;
+    background-color: $Neon-Green;
+    border: none;
+    position: absolute;
+    top: 105.17%;
+    left: 50%;
+    transform: translate(-40%, -50%);
+    cursor: pointer;
+    text-align: center;
+  }
+  & .btn:hover {
+    box-shadow: 0 0 20px $Neon-Green;
+  }
+  & .btn:active {
+    box-shadow: 0 0 10px $Neon-Green;
+  }
+}
